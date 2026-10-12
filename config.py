@@ -3,8 +3,7 @@ The GMDAT benchmark: 100 edits across 8 domains, plus the per-domain
 reference sets and context templates GIS is computed over.
 
 This is the full dataset definition for the paper's main result (Table 1,
-LLaMA-3.1-8B row). Trimmed from the paper's full codebase to a single model
-(LLaMA-3.1-8B) and a single method (ROME) -- see README.md.
+LLaMA-3.1-8B row).
 """
 import os
 

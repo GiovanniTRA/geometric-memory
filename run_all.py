@@ -1,7 +1,5 @@
 """
-Runs run_edit.py once per edit in a fresh subprocess (ROME's own context-
-template sampling is unseeded and module-global -- a fresh process per edit
-keeps every edit independent; see README.md).
+Runs run_edit.py once per edit, each in a fresh subprocess.
 
 Usage:
   python run_all.py                 # all 100 edits

@@ -1,12 +1,4 @@
-"""
-GIS_acc: soft accuracy on 10 entity-specific A/B factual questions per edit
-(data/entity_questions.json). Each question pairs a true fact about the
-*source* entity against a plausible distractor from elsewhere in the same
-domain -- this isolates whether the model's knowledge about the target
-transferred specifically, rather than generically ("some capital city plays
-a major cultural role" is true of any city and tells you nothing about
-whether the edit worked).
-"""
+"""GIS_acc: soft accuracy on the 10 entity-specific A/B questions per edit."""
 import json
 import math
 import os
