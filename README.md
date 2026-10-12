@@ -1,6 +1,6 @@
 # Geometric Memory in Knowledge Editing
 
-Minimal reference implementation of the main result in **"Position Paper: LLM Model
+Implementation of the main result in **"Position Paper: LLM Model
 Editing Has a Geometry Problem"**: ROME on LLaMA-3.1-8B, scored with GIS_theta
 (geometric) and GIS_acc (behavioral), over the paper's 100-edit, 8-domain benchmark.
 
